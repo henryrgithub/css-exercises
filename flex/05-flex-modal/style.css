@@ -14,12 +14,26 @@ body {
   align-items: center;
   justify-content: center;
 }
+.header_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.interaction_rows {
+  flex: auto;
+  justify-content: space-evenly;
+  gap:10px;
+  margin: 10px
+}
+
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content:flex-start;
 }
 
 .icon {
@@ -31,8 +45,10 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: 1 0 auto;
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 
 .close-button {
