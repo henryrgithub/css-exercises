@@ -9,6 +9,8 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  gap: 1rem;
 }
 
 .container div {
@@ -32,6 +34,7 @@ html {
 
 .nav {
   background-color: #642cde;
+  /* grid-row: 2/3; */
 }
 
 .article {
